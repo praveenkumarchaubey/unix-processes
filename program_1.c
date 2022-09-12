@@ -3,6 +3,7 @@
 #include<sys/stat.h>
 #include<fcntl.h>
 #include<unistd.h>
+
 int main()
 {
     pid_t pid;
@@ -16,7 +17,7 @@ int main()
     }
     else
     {
-       printf("....id is......%d\n",getpid());
+        printf("....id is......%d\n",getpid());
     }
     printf("good bye\n");
     return(0);
